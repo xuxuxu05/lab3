@@ -9,37 +9,20 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
+            background-color: #f4f4f4;
             padding: 20px;
-            margin: 0;
-            min-height: 100vh;
-        }
-
-        .resume-overlay {
-            background-color: rgba(255, 255, 255, 0.85);
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 1200px;
-            margin: 0 auto;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             border: 1px solid #ccc;
-            background-color: rgba(255, 255, 255, 0.7);
         }
 
         caption {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 10px;
-            padding: 10px;
-            color: #333;
         }
 
         th,
@@ -50,7 +33,7 @@
         }
 
         th {
-            background-color: rgba(240, 240, 240, 0.7);
+            background-color: #f0f0f0;
         }
 
         td img {
@@ -58,98 +41,76 @@
             height: 120px;
             object-fit: cover;
             border-radius: 50%;
-            border: 3px solid #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .info-label {
             font-weight: bold;
             color: #333;
-            white-space: nowrap;
         }
 
         .info-label i {
             margin-right: 5px;
-            color: #4a6baf;
-        }
-
-        @media (max-width: 768px) {
-            .resume-overlay {
-                padding: 10px;
-            }
-            
-            td img {
-                width: 80px;
-                height: 80px;
-            }
-            
-            caption {
-                font-size: 20px;
-            }
         }
     </style>
 </head>
 
 <body>
-    <div class="resume-overlay">
-        <table>
-            <caption>个人简历</caption>
-            <tr>
-                <td class="info-label"><i class="fas fa-user"></i> 姓名</td>
-                <td>徐佳慧</td>
-                <td class="info-label"><i class="fas fa-venus-mars"></i> 性别</td>
-                <td>女</td>
-                <td class="info-label"><i class="fas fa-birthday-cake"></i> 年龄</td>
-                <td>19</td>
-                <td rowspan="2">
-                    <img src="js/img/my-img.jpg" alt="个人照片">
-                </td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-map-marker-alt"></i> 籍贯</td>
-                <td>山东济宁</td>
-                <td class="info-label"><i class="fas fa-phone"></i> 联系电话</td>
-                <td>123456789</td>
-                <td class="info-label"><i class="fas fa-envelope"></i> 电子邮箱</td>
-                <td>xujiahui@example.com</td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-graduation-cap"></i> 学历</td>
-                <td>本科</td>
-                <td class="info-label"><i class="fas fa-heartbeat"></i> 健康状况</td>
-                <td>良好</td>
-                <td class="info-label"><i class="fas fa-ring"></i> 婚姻状况</td>
-                <td>未婚</td>
-                <td rowspan="3"></td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-briefcase"></i> 求职意向</td>
-                <td>软件工程师</td>
-                <td class="info-label" colspan="2"><i class="fas fa-book-open"></i> 专业</td>
-                <td colspan="2">软件工程</td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-certificate"></i> 技能证书</td>
-                <td colspan="5">大学英语四级证书</td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-star"></i> 个人特长与爱好</td>
-                <td colspan="6">热爱编程，喜欢阅读技术书籍，擅长c语言</td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-project-diagram"></i> 项目经历</td>
-                <td colspan="6">曾参与蓝桥杯，天梯赛等竞赛。</td>
-            </tr>
-            <tr>
-                <td class="info-label"><i class="fas fa-user-circle"></i> 自我评价</td>
-                <td colspan="6">
-                    本人具备扎实的专业知识和较强的学习能力，能快速掌握新知识和技能。
-                    在项目中，有良好的团队合作精神，能与团队成员有效沟通协作。
-                    对新技术有强烈学习兴趣，不断追求技术提升和创新。本人性格开朗，积极向上，具备较强的学习能力和适应能力。在大学期间，通过系统的专业课程学习，掌握了扎实的专业知识基础。例如在学习中，深入理解了相关理论，并通过课程设计实践，提升了实际操作能力。在项目经历方面，参与过，在其中负责[具体，通过团队协作和自身努力，成功完成项目目标，锻炼了团队合作能力和问题解决能力。同时，我拥有良好的沟通能力，能够与不同背景的人进行有效的交流与合作。我热爱挑战，对于新的知识和技能充满探索欲，始终保持学习的热情，不断提升自己的综合素质，期望在未来的工作中能够充分发挥自己的优势，为公司创造价值。
-                </td>
-            </tr>
-        </table>
-    </div>
+    <table>
+        <caption>个人简历</caption>
+        <tr>
+            <td class="info-label"><i class="fas fa-user"></i> 姓名</td>
+            <td>徐佳慧</td>
+            <td class="info-label"><i class="fas fa-venus-mars"></i> 性别</td>
+            <td>女</td>
+            <td class="info-label"><i class="fas fa-birthday-cake"></i> 年龄</td>
+			<td>19</td>
+            <td rowspan="2">
+                <img src="img/my-img.jpg" alt="个人照片">
+            </td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-map-marker-alt"></i> 籍贯</td>
+            <td>山东济宁</td>
+            <td class="info-label"><i class="fas fa-phone"></i> 联系电话</td>
+            <td>123456789</td>
+            <td class="info-label"><i class="fas fa-envelope"></i> 电子邮箱</td>
+            <td>xujiahui@example.com</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-graduation-cap"></i> 学历</td>
+            <td>本科</td>
+            <td class="info-label"><i class="fas fa-heartbeat"></i> 健康状况</td>
+            <td>良好</td>
+            <td class="info-label"><i class="fas fa-ring"></i> 婚姻状况</td>
+            <td>未婚</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-briefcase"></i> 求职意向</td>
+            <td>软件工程师</td>
+            <td class="info-label" colspan="2"><i class="fas fa-book-open"></i> 专业</td>
+            <td colspan="2">软件工程</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-certificate"></i> 技能证书</td>
+            <td colspan="5">大学英语四级证书</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-star"></i> 个人特长与爱好</td>
+            <td colspan="5">热爱编程，喜欢阅读技术书籍，擅长c语言</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-project-diagram"></i> 项目经历</td>
+            <td colspan="5">曾参与蓝桥杯，天梯赛等竞赛。</td>
+        </tr>
+        <tr>
+            <td class="info-label"><i class="fas fa-user-circle"></i> 自我评价</td>
+            <td colspan="5">
+                本人具备扎实的专业知识和较强的学习能力，能快速掌握新知识和技能。
+                在项目中，有良好的团队合作精神，能与团队成员有效沟通协作。
+                对新技术有强烈学习兴趣，不断追求技术提升和创新。                本人性格开朗，积极向上，具备较强的学习能力和适应能力。在大学期间，通过系统的专业课程学习，掌握了扎实的专业知识基础。例如在学习中，深入理解了相关理论，并通过课程设计实践，提升了实际操作能力。在项目经历方面，参与过，在其中负责[具体，通过团队协作和自身努力，成功完成项目目标，锻炼了团队合作能力和问题解决能力。同时，我拥有良好的沟通能力，能够与不同背景的人进行有效的交流与合作。我热爱挑战，对于新的知识和技能充满探索欲，始终保持学习的热情，不断提升自己的综合素质，期望在未来的工作中能够充分发挥自己的优势，为公司创造价值。
+            </td>
+        </tr>
+    </table>
 </body>
 
-</html>
+</html>  
